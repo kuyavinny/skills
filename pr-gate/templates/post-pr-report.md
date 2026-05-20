@@ -1,12 +1,12 @@
 ---
 pr_number:       {N}
-branch:          feat/mod3-pr{N}-{description}
+branch:          {branch_name}
 merge_commit:    {hash}
 status:          merged
 author:          {author}
 repository:      {repo}
 base_branch:     develop
-code_review:     .rpiv/artifacts/reviews/{datetime}_mod3-pr{N}-{description}.md
+code_review:     .rpiv/artifacts/reviews/{datetime}_{branch_slug}.md
 review_status:   approved
 ---
 
